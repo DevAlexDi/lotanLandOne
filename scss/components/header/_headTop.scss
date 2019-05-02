@@ -1,0 +1,42 @@
+@import "layout/var";
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+
+    &__side {
+        &--left {
+            width: 100%;
+            display: flex;
+        }
+
+        &--mid {
+            flex-shrink: 0;
+        }
+
+        &--right {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__call-me {
+        display: flex;
+        align-items: center;
+        position: relative;
+        font-size: 17px;
+        color: #fff;
+        font-weight: $b;
+        padding-right: 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &__cube {
+        margin-left: 15px;
+        
+    }
+}

@@ -1,0 +1,66 @@
+@import "layout/var";
+
+.about-flex {
+    display: flex;
+    align-items: center;
+
+    &__left {
+        flex-shrink: 0;
+        width: 275px;
+    }
+
+    &__right {
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    &__photo {
+        height: 410px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 44px;
+    }
+
+    &__photo-descr {
+        font-size: 14px;
+        color: #444444;
+    }
+
+    &__cube {
+        width: 19px;
+        height: 19px;
+        border-radius: 3px;
+        border: 1px solid #000;
+        transform-origin: center;
+        transform: rotate(45deg);
+        margin-bottom: 24px;
+    }
+
+    &__sub-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+    }
+
+    &__title {
+        font-size: 32px;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        color: $pink;
+        font-weight: $b;
+        line-height: 38px;
+    }
+
+    &__description {
+        p {
+            font-family: $lato;
+            font-size: 14px;
+            margin-bottom: 14px;
+            color: #444444;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

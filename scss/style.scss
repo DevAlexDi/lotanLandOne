@@ -1,0 +1,26 @@
+@import "layout/var";
+@import "layout/app";
+//header
+@import "components/header/header";
+@import "components/header/headerContacts";
+@import "components/header/headTop";
+@import "components/header/headerSocials";
+@import "components/header/cube";
+@import "components/header/menu";
+@import "components/header/menuList";
+//baner
+@import "components/sliderbaner/sliderBaner";
+@import "components/sliderbaner/slide1";
+//about
+@import "components/about/about";
+@import "components/about/aboutFlex";
+//categories
+@import "components/categories/categoriesWrapp";
+@import "components/categories/categories";
+@import "components/categories/category";
+//best product
+@import "components/bestproduct/bestProduct";
+//news
+@import "components/news/news";
+@import "components/news/newsSlider";
+@import "components/news/newsSlide";

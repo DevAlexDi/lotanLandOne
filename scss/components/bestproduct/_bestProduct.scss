@@ -1,0 +1,112 @@
+@import "layout/var";
+
+.best-product {
+    padding-top: 150px;
+    padding-bottom: 220px;
+
+    &__title-wrapp {
+        margin-bottom: 85px;
+    }
+
+    &__cube {
+        width: 19px;
+        height: 19px;
+        border-radius: 3px;
+        border: 1px solid #444444;
+        margin: 0 auto 21px auto;
+        transform-origin: center;
+        transform: rotate(45deg);
+        transition: opacity 0.3s;
+    }
+
+    &__sub-title {
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: $b;
+        color: $pink;
+        font-size: 32px;
+    }
+
+    &__image-wrapp {
+        position: relative;
+        margin-bottom: 14px;
+
+        &:hover {
+            .best-product__hover-link {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__image {
+        height: 324px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    &__hover-link {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: $b;
+        background: rgba(243,199,199,0.96);
+    }
+
+    &__name {
+        font-size: 17px;
+        font-weight: $b;
+        display: block;
+        text-align: center;
+        color: #444444;
+        margin-bottom: 23px;
+    }
+
+    &__description {
+        font-size: 15px;
+        color: #444444;
+        padding-top: 18px;
+        border-top: 1px solid #000;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    &__show-more-wr {
+        padding-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__show-more-butt {
+        display: block;
+        padding: 18px 44px;
+        background: #191919;
+        font-size: 14px;
+        font-weight: $b;
+        color: #fff;
+        text-transform: uppercase;
+        border-right: 11px solid $pink;
+        transition: border-color 0.3s, background-color 0.3s;
+
+        &:hover {
+            background-color: $pink;
+            border-color: #191919;
+        }
+    }
+}

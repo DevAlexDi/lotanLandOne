@@ -1,0 +1,49 @@
+@import "layout/var";
+
+.header-socials {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        margin: 0 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        background: $pink;
+        border-radius: 50%;
+
+        svg {
+            display: block;
+        }
+
+        &--vk {
+            svg {
+                width: 17px;
+            }
+        }
+
+        &--fb {
+            svg {
+                width: 14px;
+            }
+        }
+
+        &--insta {
+            svg {
+                width: 14px;
+            }
+        }
+    }
+}

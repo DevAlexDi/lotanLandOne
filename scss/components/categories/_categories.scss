@@ -1,0 +1,14 @@
+@import "layout/var";
+
+.categories {
+    width: calc(100% + 3px);
+    position: relative;
+    left: -1.5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        padding: 1.5px;
+        width: 25%;
+    }
+}

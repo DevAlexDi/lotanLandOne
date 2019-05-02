@@ -1,0 +1,28 @@
+@import "layout/var";
+
+.slide-1 {
+    padding-top: 195px;
+
+    &__cube {
+        margin: 0 auto 22px auto;
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        background: #fff;
+        transform-origin: center;
+        transform: rotate(45deg);
+    }
+
+    &__text {
+        color: #fff;
+        font-size: 32px;
+        text-transform: uppercase;
+        text-align: center;
+
+        span {
+            display: block;
+            color: $pink;
+            font-weight: $b;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import "layout/var";
+
+.news {
+    position: relative;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 120px;
+
+    &__title-wrapp {
+        margin-bottom: 85px;
+    }
+
+    &__cube {
+        width: 19px;
+        height: 19px;
+        border-radius: 3px;
+        border: 1px solid #444444;
+        margin-bottom: 21px;
+        transform-origin: center;
+        transform: rotate(45deg);
+        transition: opacity 0.3s;
+    }
+
+    &__sub-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: $b;
+        color: $pink;
+        font-size: 32px;
+    }
+
+    &__slider-wr {
+        position: relative;
+    }
+}

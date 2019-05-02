@@ -1,0 +1,40 @@
+@import "layout/var";
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        position: relative;
+        padding: 0 10px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+            font-weight: $b;
+        }
+    }
+
+    &__line {
+        height: 14px;
+        width: 1px;
+        background: #fff;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,20 @@
+@import "layout/var";
+
+.cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid $pink;
+    border-radius: 3px;
+    transform-origin: center;
+    transform: rotate(45deg);
+
+    &__arrow {
+        width: 9px;
+        position: relative;
+        transform-origin: center;
+        transform: rotate(-45deg);
+    }
+}

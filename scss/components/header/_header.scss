@@ -1,0 +1,14 @@
+@import "layout/var";
+
+.header {
+    position: relative;
+    border-bottom: 1px solid $pink;
+
+    &__contacts {
+        background: $pink
+    }
+
+    &__nav {
+        background: #000;
+    }
+}
