@@ -6,9 +6,17 @@
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 767px){
+        flex-wrap: wrap;
+    }
+
     &__side {
         display: flex;
         align-items: center;
+
+        @media (max-width: 767px){
+            flex-wrap: wrap;
+        }
     }
 
     &__item {
@@ -16,6 +24,10 @@
         margin-right: 25px;
         font-size: 14px;
         color: #4a4a4a;
+
+        @media (max-width: 991px){
+            margin-right: 20px;
+        }
     }
 
     &__search-input {
@@ -31,6 +43,10 @@
         color: #4a4a4a;
         font-size: 14px;
         outline: none;
+
+        @media (max-width: 767px){
+            width: 100%;
+        }
 
         &::-webkit-input-placeholder {
             color:#4e4e4f;

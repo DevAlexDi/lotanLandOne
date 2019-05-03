@@ -6,7 +6,10 @@
         height: 351px;
         background-position: center;
         background-size: cover;
-        
+
+        @media (max-width: 991px){
+            height: 220px;
+        }
     }
 
     &__slide-content {
@@ -25,6 +28,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (max-width: 767px){
+            margin: -35px 0 15px 22px;
+        }
+        
     }
 
     &__day {
@@ -35,7 +43,6 @@
         text-align: center;
         font-size: 12px;
         font-weight: 500;
-
 
         span{
             display: block;
@@ -52,6 +59,15 @@
         font-weight: $b;
         min-height: 52px;
         display: block;
+
+        @media (max-width: 991px){
+            min-height: 84px;
+        }
+
+        @media (max-width: 767px){
+            min-height: auto;
+            margin-bottom: 15px;
+        }
     }
 
     &__descr {

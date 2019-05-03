@@ -4,8 +4,24 @@
     padding-top: 150px;
     padding-bottom: 220px;
 
+    @media (max-width: 1199px){
+        padding: 100px 0 120px;
+    }
+
+    @media (max-width: 991px){
+        padding: 60px 0 50px;
+    }
+
     &__title-wrapp {
         margin-bottom: 85px;
+
+        @media (max-width: 1199px){
+            margin-bottom: 50px;
+        }
+
+        @media (max-width: 991px){
+            margin-bottom: 40px;
+        }
     }
 
     &__cube {
@@ -32,6 +48,10 @@
         font-weight: $b;
         color: $pink;
         font-size: 32px;
+
+        @media (max-width: 767px){
+            font-size: 18px;
+        }
     }
 
     &__image-wrapp {
@@ -49,6 +69,11 @@
         height: 324px;
         width: 100%;
         object-fit: contain;
+
+        @media (max-width: 991px){
+            height: 224px;
+        }
+        
     }
 
     &__hover-link {

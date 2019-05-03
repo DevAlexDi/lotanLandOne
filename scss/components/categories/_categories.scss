@@ -10,5 +10,13 @@
     &__item {
         padding: 1.5px;
         width: 25%;
+
+        @media (max-width: 991px){
+            width: 50%;
+        }
+
+        @media (max-width: 767px){
+            width: 100%;
+        }
     }
 }

@@ -6,8 +6,20 @@
     padding-top: 10px;
     margin-bottom: 120px;
 
+    @media (max-width: 991px){
+        margin-bottom: 70px;
+    }
+
+    @media (max-width: 767px){
+        overflow: visible;
+    }
+
     &__title-wrapp {
         margin-bottom: 85px;
+
+        @media (max-width: 991px){
+            margin-bottom: 70px;
+        }
     }
 
     &__cube {

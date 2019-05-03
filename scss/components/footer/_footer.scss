@@ -1,0 +1,22 @@
+@import "layout/var";
+
+.footer {
+    
+    &__top-wr {
+        background: #000;
+        padding: 35px 0;
+    }
+
+    &__mid-wr {
+        padding: 40px 0;
+
+        @media (max-width: 991px){
+            padding: 22px 0;
+        }
+    }
+
+    &__bott-wr {
+        background: $pink;
+        padding: 15px 0;
+    }
+}

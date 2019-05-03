@@ -24,8 +24,18 @@
         background: $pink;
         border-radius: 50%;
 
+        @media (max-width: 991px){
+            background: #000;
+        }
+
         svg {
             display: block;
+
+            path {
+                @media (max-width: 991px){
+                    fill: $pink;
+                }
+            }
         }
 
         &--vk {
@@ -43,6 +53,26 @@
         &--insta {
             svg {
                 width: 14px;
+            }
+        }
+    }
+
+    &--pink-theme {
+        .header-socials__item{
+            &:last-child {
+                @media (max-width: 767px){
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+        .header-socials__link {
+            background: #fff;
+
+            svg {
+                path {
+                    fill: $pink;
+                }
             }
         }
     }
