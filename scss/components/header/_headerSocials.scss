@@ -23,6 +23,11 @@
         height: 26px;
         background: $pink;
         border-radius: 50%;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #fff;
+        }
 
         @media (max-width: 991px){
             background: #000;
@@ -68,6 +73,11 @@
         
         .header-socials__link {
             background: #fff;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #000;
+            }
 
             svg {
                 path {
